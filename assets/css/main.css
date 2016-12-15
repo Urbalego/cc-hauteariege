@@ -48,6 +48,18 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	/* Hide content for human only */
+	.sr-only {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0,0,0,0);
+		border: 0;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -3264,6 +3276,22 @@
 		z-index: 10000;
 	}
 
+		#header .logo {
+			-moz-transition: opacity 0.2s ease;
+			-webkit-transition: opacity 0.2s ease;
+			-ms-transition: opacity 0.2s ease;
+			transition: opacity 0.2s ease;
+			margin-top: -0.2rem;
+	    height: 2rem;
+	    display: inline-block;
+	    vertical-align: middle;
+			opacity: 1;
+		}
+
+		#header.alt .logo {
+			opacity: 0;
+		}
+
 		#header h1 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
@@ -3396,7 +3424,7 @@
 		text-align: center;
 	}
 
-		#banner h2 {
+		#banner .logo {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
@@ -3406,11 +3434,9 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
 			opacity: 1;
-			padding: 0.35em 1em;
-			position: relative;
 			z-index: 1;
+			height: 8rem;
 		}
 
 			#banner h2:before, #banner h2:after {
