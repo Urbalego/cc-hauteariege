@@ -3437,6 +3437,21 @@
 			opacity: 1;
 			z-index: 1;
 			height: 8rem;
+			margin-bottom: 2rem;
+		}
+
+		#banner .title {
+			text-transform: uppercase;
+			font-size: 1.3rem;
+			font-weight: 700;
+			letter-spacing: 4px;
+		}
+
+		#banner .sub-title {
+			text-transform: uppercase;
+			font-size: 1rem;
+			margin: 1rem auto 3rem;
+			letter-spacing: 4px;
 		}
 
 		#banner p {
