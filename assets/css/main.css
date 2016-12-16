@@ -2812,7 +2812,7 @@
 
 		.wrapper.style3 {
 			background-color: #A0B77C;
-			color: #d3d4e4;
+			color: #dce4d3;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -2844,7 +2844,7 @@
 			}
 
 			.wrapper.style3 header.major p {
-				color: #d3d4e4;
+				color: #dce4d3;
 			}
 
 			.wrapper.style3 label {
@@ -2865,7 +2865,7 @@
 
 			.wrapper.style3 input[type="checkbox"] + label,
 			.wrapper.style3 input[type="radio"] + label {
-				color: #d3d4e4;
+				color: #dce4d3;
 			}
 
 				.wrapper.style3 input[type="checkbox"] + label:before,
