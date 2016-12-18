@@ -3349,6 +3349,9 @@
 						text-transform: uppercase;
 					}
 
+						#header nav > ul > li > a.active {
+							font-weight: bolder;
+						}
 
 						#header nav > ul > li > a.disabled {
 							cursor: not-allowed;
