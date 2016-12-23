@@ -3353,10 +3353,6 @@
 							font-weight: bolder;
 						}
 
-						#header nav > ul > li > a.disabled {
-							cursor: not-allowed;
-						}
-
 						#header nav > ul > li > a.menuToggle {
 							outline: 0;
 							position: relative;
